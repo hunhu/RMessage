@@ -24,7 +24,8 @@
 
 + (UIViewController *)topViewController
 {
-  return [self.class topViewControllerForViewController:[UIApplication sharedApplication].keyWindow.rootViewController];
+  return nil;
+  //return [self.class topViewControllerForViewController:[UIApplication sharedApplication].keyWindow.rootViewController];
 }
 
 @end
