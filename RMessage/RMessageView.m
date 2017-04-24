@@ -874,14 +874,12 @@ static NSMutableDictionary *globalDesignDictionary;
       } else {
         /* Navigation bar hidden or being asked to present as nav bar overlay, so present above status bar and/or
          navigation bar */
-        //self.titleSubtitleContainerViewCenterYConstraint.constant =
-        //  [UIApplication sharedApplication].statusBarFrame.size.height / 2.f;
+        self.titleSubtitleContainerViewCenterYConstraint.constant = 10.0f;
       }
     }
   } else {
     if (self.messagePosition != RMessagePositionBottom) {
-      //self.titleSubtitleContainerViewCenterYConstraint.constant =
-      //  [UIApplication sharedApplication].statusBarFrame.size.height / 2.f;
+      self.titleSubtitleContainerViewCenterYConstraint.constant = 10.0f;
     }
   }
   if (!self.superview) [self.viewController.view addSubview:self];
@@ -907,7 +905,7 @@ static NSMutableDictionary *globalDesignDictionary;
         /* If view controller edges dont extend under top bars (navigation bar in our case) we must not factor in the
          navigation bar frame when animating RMessage's final position */
         if ([[self class] viewControllerEdgesExtendUnderTopBars:messageNavigationController]) {
-          self.topToVCFinalConstant = /*[UIApplication sharedApplication].statusBarFrame.size.height +*/
+          self.topToVCFinalConstant = 20.0f +
                                       messageNavigationController.navigationBar.bounds.size.height +
                                       [self customVerticalOffset];
         } else {
