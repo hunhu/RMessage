@@ -8,7 +8,7 @@
 
 #import "RMessageView.h"
 #import "UIWindow+TopViewController.h"
-#import <HexColors/HexColors.h>
+#import "HexColors.h"
 
 static NSString *const RDesignFileName = @"RMessageDefaultDesign";
 
