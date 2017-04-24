@@ -13,8 +13,8 @@
     "backgroundColor": "#E8E8E8",
     "backgroundColorAlpha": 1.0,
     "titleTextColor": "#727C83",
-    "titleFontSize": 14,
-    "subtitleFontSize": 12,
+    "titleFontSize": 18,
+    "subtitleFontSize": 14,
     "subtitleTextColor": "#727C83",
     "blurBackground": 0
   },
