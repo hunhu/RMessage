@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -24,7 +24,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Subtitle" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86Q-SR-N4H">
-                            <rect key="frame" x="0.0" y="28.5" width="304" height="35.5"/>
+                            <rect key="frame" x="0.0" y="24.5" width="304" height="39.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
@@ -36,7 +36,7 @@
                         <constraint firstItem="bJU-tq-cfR" firstAttribute="leading" secondItem="49I-AE-5sP" secondAttribute="leading" id="VRO-Hp-HEg"/>
                         <constraint firstItem="86Q-SR-N4H" firstAttribute="leading" secondItem="49I-AE-5sP" secondAttribute="leading" id="aEg-41-Ls4"/>
                         <constraint firstAttribute="trailing" secondItem="86Q-SR-N4H" secondAttribute="trailing" id="c6c-9D-OGo"/>
-                        <constraint firstItem="86Q-SR-N4H" firstAttribute="top" secondItem="bJU-tq-cfR" secondAttribute="bottom" constant="8" id="sUB-xD-36O"/>
+                        <constraint firstItem="86Q-SR-N4H" firstAttribute="top" secondItem="bJU-tq-cfR" secondAttribute="bottom" constant="4" id="sUB-xD-36O"/>
                         <constraint firstAttribute="trailing" secondItem="bJU-tq-cfR" secondAttribute="trailing" id="y3p-Mv-3g9"/>
                     </constraints>
                 </view>
